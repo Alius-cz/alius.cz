@@ -3,6 +3,9 @@
     font-family: "Open Sans";
     src: url('../fonts/opensans.ttf');
 }
+a {
+    text-decoration: none;
+}
 body {
     background-color: #C6C6C6;
 }
@@ -33,7 +36,6 @@ h1 {
 }
 .link {
     color: inherit;
-    text-decoration: none;
 }
 .link:hover {
     color: #0082C9;
@@ -43,7 +45,6 @@ h1 {
 }
 .navbar-link {
     color: #FFFFFF;
-    text-decoration: none;
 }
 .navbar-badge {
     @media (min-width: 700px) {
@@ -62,4 +63,8 @@ h1 {
 }
 a:hover {
     color: lightgrey;
+}
+.header-alert {
+    position: relative;
+    padding: 1rem 1rem;
 }
